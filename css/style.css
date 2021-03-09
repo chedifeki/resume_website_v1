@@ -1,0 +1,161 @@
+/* cyberpunk palette : 
+    washed out tokyo style : 
+    
+        #3700b3 : saturated purple 
+        #03dac6 : teal
+        #bb86fc  : desaturated purple
+*/
+body {
+    
+    background-color: #121212;
+    color : #f0f6f0;
+    padding :15px;
+    
+}
+
+.container{
+        max-width:1080px;
+        margin:15px auto;
+        border-radius: 10px;
+        box-shadow: 2px 3px 5px black;
+        background-color: #191919;
+        padding : 15px;
+}
+
+#smicons{
+    display: flex;
+    justify-content:space-evenly;
+    margin: 15px auto;
+    max-width:1500px;
+}
+#smicons img{
+    width : 30px;
+    opacity: 0.5;
+}
+#smicons img:hover{
+    opacity: 1;
+    
+}
+#content{
+    margin : auto;
+    display: flex;
+    justify-content: space-between;
+    max-width:1080px;
+}
+
+#sidebar{
+    
+    color: #bb86fc;
+    flex: 1;
+    max-width: 210px;
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+#sidebar img{
+    border-radius:50%;
+    width:150px;
+}
+#sidebar img:hover{
+    
+    width: 200px;
+    box-shadow: 2px 2px 5px black;
+}
+
+#main{
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 0px 15px;
+}
+#header-navBar{
+    
+    display : flex;
+    justify-content:space-evenly;
+    align-content:center;
+    margin : 0px;
+}
+
+.navBar{
+    display: flex;
+    align-items:center
+}
+.button{
+    background-color:#191919;
+    padding:15px 30px 15px 30px;
+    border : 1px solid #bb86fc; 
+    border-radius:5px;
+    color:#bb86fc;
+}
+.button:hover, .button:focus, .button.w3-red{
+    /*padding:20px 35px 20px 35px;*/
+    outline : 0;
+    -moz-outline: 0;
+    -ms-outline:0;
+    -o-outline: 0;
+    -webkit-outline: 0;
+    border: 1px solid #bb86fc;
+    border-radius:10px;
+    background-color:rgba(187, 134, 252, .12);
+    box-shadow: 2px 2px 5px black;
+}
+
+
+.container.tab{
+    margin : 15px 0px;
+    background-color: #272727;
+    box-shadow: 2px 5px 10px black;
+}
+.container.tab h1{
+    text-decoration: underline;
+    text-decoration-color:#84c9fb  ;
+}
+#footer{
+    
+    text-align:center;
+}
+
+
+
+
+/*-----*/
+#cf1{
+    width: 85%;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+.contact_form{
+color : white;
+background-color: #191919;
+padding : 15px;
+border-radius:5px;
+border : 0;
+margin : 10px;
+box-shadow: -2px -2px 5px black;
+}
+.contact_form:focus{
+    outline :0 ;
+    border:0 import ;
+}
+.contact_form::placeholder{
+    color: #84c9fb;
+}
+
+.contact_form:focus::placeholder{
+    color:rgba(132, 201, 251, .2) ;
+}
+#cf_submit{
+    padding : 15px 50px;
+    color: #84c9fb;
+    align-self: flex-end;
+}
+#cf_submit:hover{
+    background-color :#353535;
+    box-shadow: 2px 2px 5px black;
+}
+
